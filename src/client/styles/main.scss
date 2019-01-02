@@ -1,0 +1,18 @@
+/*
+Import style rules from NYPL React module components
+*/
+@import "~@nypl/dgx-header-component/dist/styles/main";
+@import '~@nypl/dgx-react-footer/dist/styles/styles';
+
+$font-path: "fonts";
+$image-path: "img";
+@import '~uswds/src/stylesheets/all';
+// @import "uswds";
+
+#app {
+  margin: 0;
+}
+
+#mainContent {
+  min-height: 400px;
+}
